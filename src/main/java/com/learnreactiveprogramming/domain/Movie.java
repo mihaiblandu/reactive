@@ -4,12 +4,14 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.annotation.processing.Generated;
 import java.util.List;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class Movie {
+
     private Long movieId;
     private MovieInfo movie;
     private List<Review> reviewList;
@@ -20,5 +22,8 @@ public class Movie {
         this.movie = movie;
         this.reviewList = reviewList;
     }
-
+    public Movie(MovieInfo movieInfo, List<Review> reviewList) {
+        this.movie = movieInfo;
+        this.reviewList = reviewList;
+    }
 }

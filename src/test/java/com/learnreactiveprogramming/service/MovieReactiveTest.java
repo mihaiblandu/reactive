@@ -1,5 +1,4 @@
 package com.learnreactiveprogramming.service;
 
-public class ProductServiceUsingThread {
-
+public class MovieReactiveTest {
 }

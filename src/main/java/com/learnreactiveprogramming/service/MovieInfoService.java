@@ -9,7 +9,7 @@ import java.util.List;
 
 import static com.learnreactiveprogramming.util.CommonUtil.delay;
 
-public class MovieInfoService {
+public class  MovieInfoService {
 
     public  Flux<MovieInfo> movieInfoFlux(){
 
